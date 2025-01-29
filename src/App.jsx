@@ -8,18 +8,17 @@ function App() {
     //let count = 0
     let [count, setCount] = useState(0);
     const Increment = () =>{
-    if(count < 20)
+    
         setCount(count + 1);
-    else
-        alert("Can't increase further. Counter reached MAX VALUE : 20.")
+    
+        
     //console.log(count)
     }
 
     const Decrement = () =>{
-        if(count > 0)
+        
             setCount (count - 1);
-        else 
-            alert("Can't decrease further. Counter reached 0.")
+        
         //console.log(count)
     }
 
